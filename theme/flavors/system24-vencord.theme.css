@@ -22,6 +22,11 @@ body {
 
     /* hide nav buttons*/        
     .leading_c38106 { visibility: hidden; }
+
+    /* hide inbox*/
+    div[aria-label="Inbox"] {
+    display: none !important;
+    }
     
     /* sizes */
     --gap: 12px; /* spacing between panels */
