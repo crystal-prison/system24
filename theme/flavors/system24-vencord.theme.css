@@ -74,8 +74,8 @@ body {
     --unrounding: off; /* off: default, on: remove rounded corners from panels */
 
     /* styling options */
-    --custom-spotify-bar: on; /* off: default, on: custom text-like spotify progress bar */
-    --ascii-titles: on; /* off: default, on: use ascii font for titles at the start of a channel */
+    --custom-spotify-bar: off; /* off: default, on: custom text-like spotify progress bar */
+    --ascii-titles: off; /* off: default, on: use ascii font for titles at the start of a channel */
     --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
 
     /* panel labels */
@@ -86,7 +86,7 @@ body {
 
 /* color options */
 :root {
-    --colors: on; /* off: discord default colors, on: midnight custom colors */
+    --colors: off; /* off: discord default colors, on: midnight custom colors */
 
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */
